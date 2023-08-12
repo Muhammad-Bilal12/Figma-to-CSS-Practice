@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 10px 20px;
+  height: 100px;
+}
+.head img {
+  width: 80px;
+}
+
+.main-heading {
+  margin-top: 20px;
+  text-align: center;
+}
+.main-heading hr {
+  margin: 0 auto;
+  width: 250px;
+  height: 5px;
+  border-radius: 30px;
+  background-color: green;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.column {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: white;
+  width: 300px;
+  overflow: hidden;
+  /* box-shadow: 2px 2px 5px grey; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
+
+.course-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.content {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+a {
+  color: blue;
+}
+button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: lightblue;
+  width: 250px;
+  color: blue;
+}

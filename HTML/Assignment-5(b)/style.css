@@ -1,28 +1,73 @@
-h1 {
-  background-color: blue;
-  color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 5% 20%;
+}
+
+.github {
+  text-align: right;
+}
+.github img {
+  width: 50px;
+}
+
+hr {
+  color: rgba(193, 190, 190, 0.736);
+  height: 2px;
+  background-color: rgba(193, 190, 190, 0.736);
+  border-radius: 20px;
+}
+.para {
+  margin-top: 10px;
+  display: flex;
+}
+
+.horLine {
+  width: 3px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 75px;
+  /* display: inline-block; */
+  background: rgba(193, 190, 190, 0.736);
+}
+
+.head {
   text-align: center;
-  font-size: 50px;
+  margin: 40px auto;
 }
-h2 {
+
+.col {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.card {
+  width: 20%;
+  height: 20%;
+  padding: 30px;
   text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
 }
-table {
-  margin: 0 auto;
+.card:hover {
+  background-color: rgba(232, 248, 255, 0.689);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-td {
-  width: 200px;
-  background: lightblue;
-  text-align: center;
-  padding: 10px 20px;
+.card img {
+  width: 100px;
+  margin-bottom: 20px;
 }
-td p,
-td a {
-  color: white;
-}
-td p {
+.card h2 {
   font-size: 18px;
-}
-td a {
-  font-size: 16px;
 }

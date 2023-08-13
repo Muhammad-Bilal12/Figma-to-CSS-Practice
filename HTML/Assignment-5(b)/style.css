@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 5% 20%;
+}
+
+.github {
+  text-align: right;
+}
+.github img {
+  width: 50px;
+}
+
+hr {
+  color: rgba(193, 190, 190, 0.736);
+  height: 2px;
+  background-color: rgba(193, 190, 190, 0.736);
+  border-radius: 20px;
+}
+.para {
+  margin-top: 10px;
+  display: flex;
+}
+
+.horLine {
+  width: 3px;
+  margin-right: 20px;
+  border-radius: 10px;
+  height: 75px;
+  /* display: inline-block; */
+  background: rgba(193, 190, 190, 0.736);
+}
+
+.head {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.col {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.card {
+  width: 20%;
+  height: 20%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: rgba(232, 248, 255, 0.689);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  font-size: 18px;
+}

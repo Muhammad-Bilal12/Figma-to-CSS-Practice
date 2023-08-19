@@ -1,0 +1,457 @@
+@font-face {
+  font-family: Apercu;
+  src: url("../assets/fonts/Apercu/Apercu\ Medium.otf");
+}
+@font-face {
+  font-family: Apercu-Light;
+  src: url("../assets/fonts/Apercu/Apercu\ Light.otf");
+}
+
+@font-face {
+  font-family: futurak;
+  src: url("../assets/fonts/futurak.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Apercu-Light", sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1180px;
+}
+
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 165px;
+  max-width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-items ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-right: 50px;
+}
+
+.nav-items ul li a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav-items ul li a:hover {
+  color: red;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 16px 18px;
+  cursor: pointer;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  outline: none;
+  margin-right: 20px;
+  color: white;
+}
+
+.color-btn {
+  background-color: red;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+  color: white;
+}
+
+.header-img img {
+  width: 100%;
+  height: 80vh;
+}
+
+.welcome-section {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+section p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 40px;
+}
+
+.brand-name {
+  font-family: "futurak", serif;
+  font-size: 52px;
+}
+
+.resturent-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resturent-card {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.resturent-card-img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.resturent-card .btn {
+  width: 80%;
+}
+
+.franchise-section {
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 70px;
+}
+
+.franchise-section h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+h3 span.brand-name {
+  font-size: 32px;
+}
+
+.franchise-section .row {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+small {
+  color: red;
+  letter-spacing: 0.48em;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.row .left {
+  padding: 0 10px;
+  width: 50%;
+}
+
+.row .left h3 {
+  line-height: 38px;
+  margin-bottom: 24px;
+}
+
+.row .left p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.row .left p a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.row .left .btn {
+  margin-top: 40px;
+}
+
+.row .right {
+  padding: 0 20px;
+  width: 50%;
+}
+
+.row .right img {
+  width: 100%;
+}
+
+section {
+  padding: 70px;
+}
+
+.card-row {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.franchise-card {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 30%;
+}
+
+.franchise-card img {
+  max-width: 100%;
+  margin-bottom: 12px;
+}
+
+.franchise-card small {
+  font-size: 12px;
+  margin-top: 34px;
+  margin-bottom: 8px;
+}
+
+.franchise-card h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.franchise-card p {
+  margin-bottom: 12px;
+}
+
+.franchise-card p a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+}
+.franchise-card .btn {
+  margin-top: 20px;
+}
+
+.village-franchise {
+  padding: 70px 0;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.village-franchise h2 {
+  font-size: 48px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.village-franchise .img-part {
+  max-width: 50%;
+  padding-right: 10px;
+}
+.img-part img {
+  width: 100%;
+}
+
+.village-franchise .detail-part {
+  max-width: 50%;
+  text-align: left;
+  margin: auto 20px;
+}
+
+.detail-part small {
+  margin-bottom: 16px;
+}
+
+.detail-part h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.detail-part p {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.detail-part p a {
+  text-decoration: none;
+
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.detail-part .btn {
+  margin-top: 20px;
+}
+
+.open-label {
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.open-card {
+  height: 250px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  width: 30%;
+  padding: 25px 24px;
+  margin: auto;
+  margin-bottom: 32px;
+}
+.open-card img {
+  display: block;
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+.open-card small {
+  display: block;
+  font-size: 10px;
+}
+.open-card h4,
+h4 .brand-name {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.open-card p {
+  font-family: serif;
+  color: black;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.open-soon .row {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-food {
+  padding-left: 0;
+  padding-right: 0;
+}
+.social-food h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.social-food .row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+.social-food .row .banner {
+  max-width: 18%;
+}
+.banner img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.footer .logo {
+  margin-bottom: 30px;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .data {
+  width: 30%;
+}
+
+.footer .data p {
+  text-align: left;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.footer ul li a,
+.footer ul li {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .site-link ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .site-link ul li {
+  margin-bottom: 20px;
+}
+
+.foot {
+  margin-top: 30px;
+  padding: 30px 20px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  width: 100%;
+}
+
+.foot .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  padding-bottom: 0;
+}

@@ -1,0 +1,296 @@
+/* Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Sofia Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+a,
+button {
+  text-decoration: none;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background-color: #0025ff;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.navbar {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container img {
+  width: 50px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.nav_list_container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  gap: 60px;
+}
+
+.nav_list li {
+  list-style-type: none;
+}
+
+.nav_list li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.fa-angle-down {
+  font-size: 14px;
+  vertical-align: baseline;
+  text-align: center;
+  margin-left: 10px;
+}
+.arrow_link {
+  display: flex;
+  align-items: baseline;
+}
+
+.btn {
+  background-color: transparent;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  border: 3px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.video,
+.pepsi_grid img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -5px;
+}
+
+.pepsi_grid {
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 0px 200px;
+  color: white;
+}
+.content p {
+  margin: 10px 0;
+}
+
+/* Celebrate Section */
+
+.celebrate_section {
+  background-color: #000;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.pepsi_header h2 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.pepsi_header h3 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.follow_btn {
+  background-color: #0025ff;
+  padding: 20px;
+  color: white;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  font-size: 60px;
+}
+
+.blue {
+  color: #0025ff;
+}
+
+.negative-margin {
+  margin-bottom: -20px !important;
+}
+
+/* Music Section */
+
+.music-section {
+  height: 678px;
+  width: 100%;
+  background: url("./assets/images/background.png") no-repeat center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.copy {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+.copy::before {
+  content: "";
+  height: 7.949vw;
+  max-height: 46px;
+  display: inline-block;
+}
+
+.tag {
+  background: url("./assets/images/apple-music-lockup-small-desktop.svg")
+    no-repeat center center;
+  background-size: auto 100%;
+  height: 23.41vw;
+  width: 81.282vw;
+  position: absolute;
+  top: 90px;
+  right: -200px;
+}
+
+#cta {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  width: 10%;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 75%;
+  right: 25%;
+}
+
+.copy > p {
+  color: white;
+  width: 30%;
+  font-size: 10px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 500px;
+  margin-right: -550px;
+}
+
+.pepsi_bottles {
+  position: absolute;
+  bottom: -120px;
+}
+
+.pepsi_bottles img {
+  width: 60%;
+}
+
+.social_box {
+  width: 80%;
+  margin: 20px auto;
+  border: 3px solid #0025ff;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  overflow: hidden;
+  object-fit: fill;
+  height: 200px;
+}
+
+.box img {
+  width: 210px;
+  height: 100%;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+
+.box img:hover {
+  background: #000;
+  scale: 1.2;
+}
+
+footer {
+  background-color: #0025ff;
+}
+.footer {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div img {
+  width: 100px;
+}
+
+div ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+div ul li a {
+  color: white;
+  font-weight: 900;
+}
+
+.social_link {
+  display: flex;
+  gap: 20px;
+}
+
+.social_link li a {
+  font-size: 24px;
+  transition: all ease 0.3s;
+}
+
+.social_link li a:hover {
+  font-size: 26px;
+  color: #5e76ff65;
+}

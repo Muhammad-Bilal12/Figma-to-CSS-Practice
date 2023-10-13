@@ -1,1 +1,1 @@
-# SMIT-Web-Development-Course
+# HTML CSS Practice
